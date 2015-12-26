@@ -210,9 +210,11 @@
    * @returns {Number}
    */
   function getScrollbarWidth() {
+    /*
     if ($(document.body).height() <= $(window).height()) {
       return 0;
     }
+    */
 
     var outer = document.createElement('div');
     var inner = document.createElement('div');
