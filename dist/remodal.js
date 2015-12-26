@@ -263,6 +263,7 @@
       paddingRight = parseInt($body.css('padding-right'), 10) + getScrollbarWidth();
 
       $body.css('padding-right', paddingRight + 'px');
+      $('.ya-header__fixed').css('padding-right', paddingRight + 'px');
       $html.addClass(lockedClass);
     }
   }
@@ -288,6 +289,7 @@
       paddingRight = parseInt($body.css('padding-right'), 10) - getScrollbarWidth();
 
       $body.css('padding-right', paddingRight + 'px');
+      $('.ya-header__fixed').css('padding-right', paddingRight + 'px');
       $html.removeClass(lockedClass);
     }
   }
